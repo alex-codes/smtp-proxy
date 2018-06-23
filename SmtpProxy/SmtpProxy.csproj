@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/alex-codes/smtp-proxy</PackageProjectUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <Description>A mockable proxy for SmptClient.</Description>
+    <Authors>alex-codes</Authors>
+    <Company />
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nuget.commandline" Version="4.6.2" />
+  </ItemGroup>
 
 </Project>
