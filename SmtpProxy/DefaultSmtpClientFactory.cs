@@ -1,7 +1,7 @@
 ﻿namespace SmtpProxy
 {
     /// <summary>
-    /// 
+    /// A default factory to create an ISmtpClient instance.
     /// </summary>
     public sealed class DefaultSmtpClientFactory : ISmtpClientFactory
     {
