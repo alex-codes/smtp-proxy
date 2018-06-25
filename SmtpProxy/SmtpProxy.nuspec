@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>SmtpProxy</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <authors>alex-codes</authors>
     <owners>alex-codes</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

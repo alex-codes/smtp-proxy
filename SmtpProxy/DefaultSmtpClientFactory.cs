@@ -6,6 +6,13 @@
     public sealed class DefaultSmtpClientFactory : ISmtpClientFactory
     {
         /// <summary>
+        /// A default factory to create an ISmtpClient instance.
+        /// </summary>
+        public DefaultSmtpClientFactory()
+        {
+        }
+
+        /// <summary>
         /// Provides a default implementation of ISmtpClient by using configuration file settings.
         /// </summary>
         /// <see cref="http://msdn.microsoft.com/en-us/library/w355a94k(v=vs.110).aspx"/>
